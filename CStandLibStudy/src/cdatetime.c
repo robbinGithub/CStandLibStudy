@@ -163,6 +163,17 @@ void time_parse_test(){
 	// Tue Jul 01 00:00:01 1997
 }
 
+
+/**
+ *  C标准库相关函数
+ *
+ *  double difftime(time_t time1, time_t time0);
+	time_t mktime(struct tm * timeptr);
+	time_t time(time_t * timer);
+	char * asctime(const struct tm * timeptr);
+	char * ctime(const time_t *timer);
+
+ */
 int main(void) {
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 //	clock_test();
